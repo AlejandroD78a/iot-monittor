@@ -1,6 +1,6 @@
 // Función para obtener los datos de la API y actualizar la tabla
 function fetchData() {
-    fetch('http://18.233.200.231:5000/api/devices')
+    fetch('http://3.238.158.212:5000/api/devices')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Error en la respuesta de la API');
